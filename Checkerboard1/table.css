@@ -1,0 +1,22 @@
+body {
+    background-color: turquoise;
+}
+
+td {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    padding: 1px;
+    margin-left: 50%;
+    margin-top: 13%;
+}
+
+.white-box {
+background-color: white;
+border: 1px solid black;
+}
+
+.black-box {
+background-color: black;
+border: 1px solid black;
+}
