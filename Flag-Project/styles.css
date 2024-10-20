@@ -1,0 +1,53 @@
+html{
+    width: 0 auto;
+    height: 100%;
+}
+body, html{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin:0 ;
+padding: 0;
+width: 100vw;
+height:90vh;
+    border-collapse: collapse;
+}
+
+/* tables */
+.red{
+    background-color: #b31942;;
+    border: 2px solid black;
+    width: 1199.55px;
+}
+
+.white{
+    background-color: white;
+    border: 2px solid black;
+    width: 1199.55px;
+}
+
+.red2{
+background-color: #b31942;
+border: 2px solid black;
+
+}
+.white2{
+background-color: white;
+border: 2px solid black;
+}
+/* stripesadd aligned to flag */
+.flag{
+width: 100px;
+margin:0 ;
+padding: 0;
+}
+
+img{
+    height: 330px;
+    width:491px;
+    /* puts picture on top of table */
+    position: absolute;
+    left:7px;
+}

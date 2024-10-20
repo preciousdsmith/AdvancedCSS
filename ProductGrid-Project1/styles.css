@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: White;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 10px;
+}
